@@ -1,6 +1,7 @@
 six>=1.11.0
 requests>=2.5.2
-urllib3>=1.13
+urllib3>=2.2.2
 oslo.serialization>=1.4.0
 oslo.log>=1.8.0
 setuptools>=17.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
